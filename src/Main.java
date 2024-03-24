@@ -19,18 +19,23 @@ public class Main {
         paper = paper - 7639;
         System.out.println(paper);
         var friend = 19;
+
         System.out.println(friend);
         friend = (friend + 2) / 7;
         System.out.println(friend);
         var frog = 3.5;
+
         System.out.println(frog);
         frog = ((frog * 10) / 3.5) + 4;
         System.out.println(frog);
+
         var weightFirstBoxer = 78.2;
         var weightSecondBoxer = 82.7;
         var totalWeightTwoBoxers = weightFirstBoxer + weightSecondBoxer;
         System.out.println(totalWeightTwoBoxers);
         var differenceWeightTwoBoxers = weightSecondBoxer - weightFirstBoxer;
         System.out.println(differenceWeightTwoBoxers);
+        var remainderDivisionBetweenTwoWeights = weightSecondBoxer / weightFirstBoxer;
+        System.out.println(remainderDivisionBetweenTwoWeights);
     }
 }
