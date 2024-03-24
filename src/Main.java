@@ -18,5 +18,9 @@ public class Main {
         System.out.println(paper);
         paper = paper - 7639;
         System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend = (friend + 2) / 7;
+        System.out.println(friend);
     }
 }
