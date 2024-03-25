@@ -45,6 +45,5 @@ public class Main {
         var moreEmployees = numbeOfCompanyEmployees + 94;
         var hoursDividedBetweenEmployees = totalNumberHoursOfEmployees / moreEmployees;
         System.out.println("Если в компании работает " + moreEmployees + " человеке, то всего " +  hoursDividedBetweenEmployees + " часа работы могут быть поделены между сотрудниками");
-
     }
 }
