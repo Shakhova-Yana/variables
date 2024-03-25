@@ -38,6 +38,9 @@ public class Main {
         var remainderDivisionBetweenTwoWeights = weightSecondBoxer % weightFirstBoxer;
         System.out.println(remainderDivisionBetweenTwoWeights);
 
-
+        var totalNumberHoursOfEmployees = 640;
+        var hoursOfOneEmployee = 8;
+        var numbeOfCompanyEmployees = totalNumberHoursOfEmployees / hoursOfOneEmployee;
+        System.out.println("Всего работников в компании - " +numbeOfCompanyEmployees+ " человек");
     }
 }
