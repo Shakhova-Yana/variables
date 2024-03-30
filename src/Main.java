@@ -37,6 +37,7 @@ public class Main {
         System.out.println(differenceWeightTwoBoxers);
         var remainderDivisionBetweenTwoWeights = weightSecondBoxer % weightFirstBoxer;
         System.out.println(remainderDivisionBetweenTwoWeights);
+        System.out.println();
 
         var totalNumberHoursOfEmployees = 640;
         var hoursOfOneEmployee = 8;
